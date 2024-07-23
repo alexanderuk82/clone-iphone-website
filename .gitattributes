@@ -1,4 +1,4 @@
-# Set the default behavior, in case people don't have core.autocrlf set.
+# Set the default behavior to text
 * text=auto
 
 # Explicitly declare text files you want to always be normalized and converted
@@ -12,11 +12,26 @@
 *.html text
 *.config.js text
 
-# Declare files that will always have LF line endings on checkout.
-*.sh text eol=lf
-
-# Denote all files that are truly binary and should not be modified.
+# Set binary files to be treated as binary
 *.png binary
 *.jpg binary
 *.jpeg binary
 *.gif binary
+*.svg binary
+*.ico binary
+
+# Handle additional assets that are usually binary
+public/assets/images/*.svg binary
+public/assets/images/*.png binary
+public/assets/images/*.jpg binary
+public/assets/images/*.jpeg binary
+
+# Force CRLF (Windows) line endings
+*.cjs text eol=crlf
+*.js text eol=crlf
+*.jsx text eol=crlf
+*.json text eol=crlf
+*.md text eol=crlf
+*.css text eol=crlf
+*.html text eol=crlf
+*.config.js text eol=crlf
