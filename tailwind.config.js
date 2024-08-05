@@ -12,6 +12,9 @@ export default {
 					300: "#42424570"
 				},
 				zinc: "#101010"
+			},
+			fontFamily: {
+				body: ["Poppins", "sans-serif"]
 			}
 		}
 	},
