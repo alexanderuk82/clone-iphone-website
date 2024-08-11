@@ -7,7 +7,6 @@ A sophisticated and responsive replica of the iPhone product page, featuring 3D 
 ## 🚀 Tech Stack
 
 - **React**: UI components
-- **Next.js**: Server-side rendering, routing
 - **Three.js**: 3D models and animations
 - **Tailwind CSS**: Styling
 - **Vite**: Build tool for faster development
