@@ -33,6 +33,8 @@ const ModelView = ({
 
 			<Lights />
 
+			{/* Is for the phone cna get movement with the mouse */}
+
 			<OrbitControls
 				makeDefault
 				ref={controlRef}
